@@ -1,5 +1,42 @@
 [
   {
+    "ContainingType": "WebServicesLearning.Controllers.TestController",
+    "Method": "GetByIDandTitle",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebServicesLearning.Controllers.TestController",
+    "Method": "GetByID",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebServicesLearning.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
