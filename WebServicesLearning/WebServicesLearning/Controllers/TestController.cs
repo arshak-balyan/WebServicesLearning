@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WebServicesLearning.Controllers
 {
@@ -50,6 +51,21 @@ namespace WebServicesLearning.Controllers
             }
 
             return Ok(searchInData);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DelByID(int id)
+        {
+            var recordToDelete = records.FirstOrDefault(p => p.ID == id);
+
+            if (recordToDelete == null)
+            {
+                return NotFound($"Record with ID {id} was not found.");
+            }
+
+            records.Remove(recordToDelete);
+
+            return Ok(new { Message = "Record deleted successfully", DeletedRecord = recordToDelete });
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebServicesLearning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+722a22f600326915342c39fd3cf2ab3dbde0dd01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b18c54d0ee59d02df9892a83883d41c1bb34a2a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebServicesLearning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebServicesLearning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
